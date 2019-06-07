@@ -249,28 +249,28 @@ main .row .col:first-child {
 /*sezione 5*/
 
 .section-5{
-  min-height: 420px;
+  height: 420px;
   background: url(https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg) no-repeat;
   background-size: cover;
   margin-bottom: 5%;
 }
 
 .section-5 div{
-  width: 30%;
-
-  margin: auto;
-  text-align: center;
+  width: 100%;
+  height: 33.3%;
 }
 
-.section-5 div div{
-  background-color: white;
-  width: 100%;
-  height: 200px;
+.section-5 div:nth-child(2) div{
+  width: 30%;
+  height: 100%;
+  margin:auto;
+  background: white;
+  text-align: center;
 }
 
 .section-5 p{
   font-size: 2rem;
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 .section-5 img{
@@ -279,3 +279,10 @@ main .row .col:first-child {
   margin: auto 10px;
 }
 /*footer*/
+
+footer div{
+  width: 100%;
+  height: 30%;
+  border: 1px solid black;
+
+}
