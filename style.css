@@ -4,11 +4,7 @@
   box-sizing: border-box;
 }
 
-/*header*/
 
-/*main*/
-
-/*footer*/
 
 /*regole temporanea per il layout*/
 .tall{
@@ -24,12 +20,13 @@
 }
 
 .bk-grey{
-  background: grey
+  background: #fafafa
 }
 
 .border{
   border: 1px solid black;
 }
+
 
 /*margini laterali*/
 .lati-margin-5{
@@ -44,8 +41,8 @@
   margin-right: 5%;
 }
 
-.col-40{
-  width: 40%;
+.right{
+  float:right;
 }
 
 .left{
@@ -58,3 +55,28 @@
   display: table;
   clear: both;
 }
+
+
+/*header*/
+.centro-80{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*main*/
+.centro-90{
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.col{
+  float: left;
+  width: 45%;
+}
+
+.row .col:first-child{
+  margin-right: 10%
+}
+
+/*footer*/
