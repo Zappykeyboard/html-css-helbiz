@@ -81,7 +81,6 @@
 
 a {
   text-decoration: none;
-  color: inherit;
 }
 
 a:hover {
@@ -139,6 +138,10 @@ main .row .col:first-child {
   margin: 15px 0;
 }
 
+.monopattino a{
+  color: inherit;
+}
+
 /*section 4*/
 
 .iphone {
@@ -148,4 +151,9 @@ main .row .col:first-child {
   min-height: 600px;
 }
 
+.cityscape{
+  background: url(https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg);
+  background-size: cover;
+  min-height: 600px;
+}
 /*footer*/
