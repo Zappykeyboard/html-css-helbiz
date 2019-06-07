@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*regole temporanea per il layout*/
+.tall{
+  height: 400px;
+}
+
+.centro-margin-5{
+  margin: 0 2.5%;
+}
+
+.centro-margin-10{
+  margin:0 5%;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
