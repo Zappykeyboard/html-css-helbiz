@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  z-index: 0;
 }
 
 body{
@@ -145,6 +146,29 @@ main .row .col:first-child {
   margin-right: 10%
 }
 
+/*sezione 0*/
+#hero{
+  min-height: 550px;
+  background-image: url(https://helbiz.com/asset/pages/newhome/images/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
+#hero div{
+  padding-top: 15%; 
+}
+
+#hero h1{
+  font-size: 3rem;
+}
+
+#hero p{
+  margin: 15px auto;
+  font-size: 14px;
+}
+
 /*sezione 1*/
 
 .bk-grey {
@@ -156,11 +180,15 @@ main .row .col:first-child {
   width: 200px;
 }
 
-.scooter h4{
+.scooter p{
   margin: 15px 0;
 }
 
-/*section 3*/
+.scooter a{
+  color: #0070c8;
+}
+
+/*sezione 3*/
 
 .monopattino {
   background: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
@@ -170,7 +198,7 @@ main .row .col:first-child {
 }
 
 .monopattino h2 {
-  margin-top: 30px;
+  margin-top: 15%;
 }
 
 .monopattino p {
