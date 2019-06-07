@@ -4,18 +4,55 @@
   box-sizing: border-box;
 }
 
+/*header*/
+
+/*main*/
+
+/*footer*/
+
 /*regole temporanea per il layout*/
 .tall{
-  height: 400px;
+  height: 150px;
 }
 
-.centro-margin-5{
+.bk-blue{
+  background-color: blue;
+}
+
+.bk-yellow{
+  background: yellow
+}
+
+.bk-grey{
+  background: grey
+}
+
+.border{
+  border: 1px solid black;
+}
+
+/*margini laterali*/
+.lati-margin-5{
   margin: 0 2.5%;
 }
 
-.centro-margin-10{
-  margin:0 5%;
+.lati-margin-15{
+  margin: 0 7.5%;
 }
+
+.destra-margin-5{
+  margin-right: 5%;
+}
+
+.col-40{
+  width: 40%;
+}
+
+.left{
+  float: left;
+}
+
+/*da utilizzare su genitori di colonne flottanti*/
 .row::after{
   content: "";
   display: table;
