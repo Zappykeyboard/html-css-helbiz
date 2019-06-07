@@ -19,10 +19,6 @@
   background: yellow
 }
 
-.bk-grey{
-  background: #fafafa
-}
-
 .border{
   border: 1px solid black;
 }
@@ -41,6 +37,8 @@
   margin-right: 5%;
 }
 
+
+/*floats*/
 .right{
   float:right;
 }
@@ -56,14 +54,22 @@
   clear: both;
 }
 
-
-/*header*/
 .centro-80{
   width: 80%;
   margin: 0 auto;
 }
 
+
+/*header*/
+nav{
+  position: sticky;
+  background: white;
+}
 /*main*/
+.bk-grey{
+  background: #fafafa
+}
+
 .centro-90{
   width: 90%;
   margin: 0 auto;
