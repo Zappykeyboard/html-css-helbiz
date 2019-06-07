@@ -59,12 +59,17 @@
   margin: 0 auto;
 }
 
+/*centra il testo*/
+.text-center{
+  text-align: center;
+}
 
 /*header*/
 nav{
-  position: sticky;
-  background: white;
+
+background: white;
 }
+
 /*main*/
 .bk-grey{
   background: #fafafa
@@ -75,14 +80,25 @@ nav{
   margin: 0 auto;
 }
 
-
 .col{
-  float: left;
   width: 45%;
+  margin-top:5%;
+  margin-bottom:5%;
 }
 
-.row .col:first-child{
+main .row .col:first-child{
   margin-right: 10%
+}
+
+.scooter{
+  height:350px;
+  width: 200px;
+}
+
+.monopattino{
+  background: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
+  background-size: cover;
+  min-height: 500px ;
 }
 
 /*footer*/
