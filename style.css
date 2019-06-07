@@ -1,60 +1,60 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-
 /*regole temporanea per il layout*/
-.tall{
+
+.tall {
   height: 150px;
 }
 
-.bk-blue{
+.bk-blue {
   background-color: blue;
 }
 
-.bk-yellow{
+.bk-yellow {
   background: yellow
 }
 
-.border{
+.border {
   border: 1px solid black;
 }
 
-
 /*margini laterali*/
-.lati-margin-5{
+
+.lati-margin-5 {
   margin: 0 2.5%;
 }
 
-.lati-margin-15{
+.lati-margin-15 {
   margin: 0 7.5%;
 }
 
-.destra-margin-5{
+.destra-margin-5 {
   margin-right: 5%;
 }
 
-
 /*floats*/
-.right{
-  float:right;
+
+.right {
+  float: right;
 }
 
-.left{
+.left {
   float: left;
 }
 
 /*da utilizzare su genitori di colonne flottanti*/
-.row::after{
+
+.row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.centro-80{
+.centro-80 {
   width: 80%;
   margin: 0 auto;
 }
@@ -62,78 +62,90 @@
 /*regole per il testo*/
 
 /*colore*/
-.text-white{
+
+.text-white {
   color: white;
 }
-.text-grey{
+
+.text-grey {
   color: #696969;
 }
 
 /*centratura*/
-.text-center{
+
+.text-center {
   text-align: center;
 }
 
 /*link*/
-a{
+
+a {
   text-decoration: none;
   color: inherit;
 }
 
-a:hover{
-  text-decoration:underline;
+a:hover {
+  text-decoration: underline;
 }
 
-
 /*header*/
-nav{
-background: white;
+
+nav {
+  background: white;
 }
 
 /*main*/
-.centro-90{
+
+.centro-90 {
   width: 90%;
   margin: 0 auto;
 }
-.col{
+
+.col {
   width: 45%;
-  margin-top:5%;
-  margin-bottom:5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-/*sezione 1*/
-.bk-grey{
-  background: #fafafa
-}
-
-main .row .col:first-child,
-.monopattino .col {
+main .row .col:first-child {
   margin-right: 10%
 }
 
-.scooter{
-  height:350px;
+/*sezione 1*/
+
+.bk-grey {
+  background: #fafafa
+}
+
+.scooter {
+  height: 350px;
   width: 200px;
 }
 
-
 /*section 3*/
-.monopattino{
+
+.monopattino {
   background: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
   background-size: cover;
   min-height: 500px;
   font-size: 1.5em;
 }
 
-.monopattino h2{
-  margin-top: 15%;
+.monopattino h2 {
+  margin-top: 30px;
 }
 
-.monopattino p{
+.monopattino p {
   margin: 15px 0;
 }
 
+/*section 4*/
 
-
+.iphone {
+  background: url(https://helbiz.com/asset/pages/newhome/images/HelbiZAPP.png) bottom no-repeat,
+   linear-gradient(#41566a, #252f38) 50% no-repeat;
+   background-size: 500px, 100%; 
+  min-height: 600px;
+}
 
 /*footer*/
