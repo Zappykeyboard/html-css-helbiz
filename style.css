@@ -7,39 +7,9 @@
 
 body{
   font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/*regole temporanea per il layout*/
-
-.tall {
-  height: 150px;
-}
-
-.bk-blue {
-  background-color: blue;
-}
-
-.bk-yellow {
-  background: yellow
-}
-
-.border {
-  border: 1px solid black;
-}
-
-/*margini laterali*/
-
-.lati-margin-5 {
-  margin: 0 2.5%;
-}
-
-.lati-margin-15 {
-  margin: 0 7.5%;
-}
-
-.destra-margin-5 {
-  margin-right: 5%;
-}
 
 /*floats*/
 
@@ -70,10 +40,6 @@ body{
 
 .text-white {
   color: white;
-}
-
-.text-grey {
-  color: #696969;
 }
 
 /*centratura*/
@@ -174,6 +140,10 @@ main section:nth-child(5) .row .col:first-child  {
 
 .bk-grey {
   background: #fafafa
+}
+
+.scooter{
+  margin: 10% auto;
 }
 
 .scooter img {
