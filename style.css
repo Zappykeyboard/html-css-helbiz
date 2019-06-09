@@ -319,9 +319,24 @@ main section:nth-child(5) .row .col:first-child  {
 }
 /*footer*/
 
-footer div{
-  width: 100%;
-  height: 30%;
-  border: 1px solid black;
+footer{
+  background: black;
+  color: white;
+}
 
+footer .col{
+  width: 25%;
+}
+footer ul{
+  list-style-type: '' ;
+  color: #696969;
+  margin-top: 30px;
+}
+
+footer li{
+  margin: 20px 0;
+}
+
+footer a{
+  color: inherit;
 }
