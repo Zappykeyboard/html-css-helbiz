@@ -260,9 +260,9 @@ main .row .col:first-child {
   height: 33.3%;
 }
 
-.section-5 div:nth-child(2) div{
+.section-5 div:nth-child(2){
   width: 30%;
-  height: 100%;
+  height: 30%;
   margin:auto;
   background: white;
   text-align: center;
@@ -270,7 +270,7 @@ main .row .col:first-child {
 
 .section-5 p{
   font-size: 2rem;
-  padding-top: 10%;
+  padding-top: 7%;
 }
 
 .section-5 img{
