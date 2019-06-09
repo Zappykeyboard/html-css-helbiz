@@ -142,7 +142,8 @@ nav li a{
   margin-bottom: 5%;
 }
 
-main .row .col:first-child {
+main section:nth-child(2) .row .col:first-child,
+main section:nth-child(5) .row .col:first-child  {
   margin-right: 10%
 }
 
@@ -196,6 +197,34 @@ main .row .col:first-child {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.slider .row{
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.25rem
+}
+
+.slider .col{
+  width: 30%;
+  margin-top: 75px;
+  margin-left: 5%;
+  min-height: 100px
+}
+
+.slider .row .col:nth-child(2){
+  margin: 0 0;
+  position: relative;
+
+}
+
+.slider img{
+  height: 600px;
+  margin: auto;
+  position: absolute;
+  bottom: -150px;
+  transform: translateX(-25%)
+}
+
 
 
 /*sezione 3*/
