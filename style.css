@@ -64,19 +64,19 @@ header {
   background: white;
   position: sticky;
   top: 0;
-  min-height: 50px;
+  min-height: 70px;
   z-index: 3;
 }
 
 nav img{
-  margin: 15px auto;
+  margin: 25px auto;
   height: 20px;
   width: 80px
 }
 
 nav li{
-  margin: 15px auto;
-  font-size: 13px;
+  margin: 30px 15px;
+  font-size: 10px;
   list-style: none;
   display: inline-block;
   padding: 0 10px;
@@ -91,9 +91,7 @@ nav span:nth-of-type(2){
   border-left: 1px solid black;
 }
 
-nav li a{
-  color: inherit;
-}
+
 
 /*main*/
 
