@@ -175,7 +175,6 @@ main section:nth-child(5) .row .col:first-child  {
 .slider .col{
   width: 30%;
   margin-top: 75px;
-  margin-left: 5%;
   min-height: 100px
 }
 
@@ -187,10 +186,8 @@ main section:nth-child(5) .row .col:first-child  {
 
 .slider img{
   height: 600px;
-  margin: auto;
   position: absolute;
   bottom: -150px;
-  transform: translateX(-25%)
 }
 
 
